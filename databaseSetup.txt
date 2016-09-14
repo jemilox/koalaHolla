@@ -1,0 +1,15 @@
+CREATE TABLE koalas (
+	id SERIAL PRIMARY KEY NOT NULL,
+	name VARCHAR(10),
+	sex VARCHAR(1),
+	age INTEGER,
+	readyForTransfer BOOLEAN,
+	notes VARCHAR(100)
+	);
+
+	INSERT INTO koalas VALUES (1, 'Scotty', 'M', 4, True, 'Born in Guatamala');
+	INSERT INTO koalas VALUES (2, 'Jean', 'F', 5, True, 'Allergic to lots of lave');
+	INSERT INTO koalas VALUES (3, 'Ororo', 'F', 7, False, 'Loves listening to Paula (Abdul)');
+	INSERT INTO koalas VALUES (4, 'Logan', 'M', 15, False, 'Loves the sauna');
+	INSERT INTO koalas VALUES (5, 'Charlie', 'M', 9, True, 'Favorite band is Nirvana');
+	INSERT INTO koalas VALUES (6, 'Betsy', 'F', 4, True, 'Has a pet iguana');
